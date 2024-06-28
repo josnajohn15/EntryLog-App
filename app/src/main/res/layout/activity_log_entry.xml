@@ -1,0 +1,74 @@
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#E9E9DD"
+    android:gravity="center"
+    android:padding="@android:dimen/app_icon_size"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9734BD"
+        android:text="Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9734BD"
+        android:text="Admission number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ano"
+
+        android:hint="Enter the admission no"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9734BD"
+        android:text="System number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sno"
+        android:hint="Enter the system number"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9734BD"
+        android:text="Department number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="Enter the department number"
+        android:layout_height="wrap_content"
+        android:id="@+id/dno"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/add"
+        android:background="#E056A2"
+        android:drawableBottom="@drawable/baseline_add_24"
+        android:text="ADD"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:id="@+id/back"
+        android:drawableBottom="@drawable/baseline_logout_24"
+        android:background="#E056A2"
+        android:text="LOGOUT"/>
+</LinearLayout>
