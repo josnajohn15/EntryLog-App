@@ -48,8 +48,7 @@
         android:text="Department number"/>
     <EditText
         android:layout_width="match_parent"
-        android:inputType="number"
-        android:hint="Enter the department number"
+        android:hint="Enter the department"
         android:layout_height="wrap_content"
         android:id="@+id/dno"/>
     <androidx.appcompat.widget.AppCompatButton
